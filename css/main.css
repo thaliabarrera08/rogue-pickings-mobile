@@ -175,3 +175,61 @@ footer span {
 	color: #45610E;
 	font-size: 0.875rem;
 }
+@media all and (min-width: 768px) {
+	/*Tablet styles here */
+	
+	.bottom-section .content-wrapper {
+	border-top: 5px solid #EEE;
+	border-bottom: 5px solid #EEE;
+	justify-content: space-evenly;
+	
+
+}
+
+	.section-one {
+		width: 30%;
+		
+	}
+	
+	.section-two {
+		width: 40%;
+		border-left: 5px solid #EEE;
+		border-right: 5px solid #EEE;
+		padding-left: 5px;
+		padding-right: 5px;
+		
+	}
+	
+	.section-three {
+		width: 30%;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	/*Desktop styles here */ 
+	body {
+		font-size: 1em;
+		
+	}
+	header .content-wrapper {
+		justify-content:space-between;
+		align-items: center;
+		padding: 20px 0 ;
+	}
+	header h1 {
+	
+		padding: 0;
+		width: 30%;
+		border-bottom: none;
+		text-align: left;
+	}
+	header nav {
+		padding:  0;
+		width: 21%;
+	}
+	
+	header nav ul {
+		display: flex; 
+		justify-content: space-between;
+	}
+}
